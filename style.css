@@ -7,7 +7,10 @@ html,body{
 }
 div{
     background-color: #3d55a2;
-    color:white;
+    color:#3d55a2;
+    transition-property:color ;
+    transition-duration: 2s;
+    transition-delay: .5s;
     height: 100%;
     display: flex;
     align-items: center;
@@ -15,5 +18,5 @@ div{
     font-family: "Rancho", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size:5vw;
+    font-size:clamp(16px,5vw,50px);
 }
