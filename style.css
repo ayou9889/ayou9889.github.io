@@ -20,3 +20,21 @@ div{
     font-style: normal;
     font-size:clamp(16px,5vw,50px);
 }
+body>div>h1{
+    position: relative;
+}
+body>div>h1::before{
+    font-weight: normal;
+    text-shadow: none;
+    content:"Back-End Dev";
+    position: absolute;
+    font-size: 20px;
+    bottom: -5px;
+    right: 0;
+    transition-property: color, transform;
+    transition-duration: 2s;
+}
+body>div>h1:hover::before{
+    transform: scaleX(-1);
+    color:#000;
+}
