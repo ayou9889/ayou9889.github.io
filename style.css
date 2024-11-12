@@ -20,8 +20,13 @@ div{
     font-style: normal;
     font-size:clamp(16px,5vw,50px);
 }
+body>div>h1::selection{
+    background-color: transparent;
+}
 body>div>h1{
     position: relative;
+    padding-bottom: clamp(16px,5vw,16px);
+    cursor: default;
 }
 body>div>h1::before{
     font-weight: normal;
@@ -29,7 +34,7 @@ body>div>h1::before{
     content:"Back-End Dev";
     position: absolute;
     font-size: 20px;
-    bottom: -5px;
+    bottom: 0;
     right: 0;
     transition-property: color, transform;
     transition-duration: 2s;
