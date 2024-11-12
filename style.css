@@ -20,13 +20,10 @@ div{
     font-style: normal;
     font-size:clamp(16px,5vw,50px);
 }
-body>div>h1::selection{
-    background-color: transparent;
-}
 body>div>h1{
     position: relative;
     padding-bottom: 16px;
-    cursor: default;
+    user-select: none;
 }
 body>div>h1::before{
     font-weight: normal;
