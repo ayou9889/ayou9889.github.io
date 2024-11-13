@@ -23,7 +23,7 @@ body>div{
     justify-content: center;
 }
 body>div>div{
-    transition-property: color transform;
+    transition-property: color, transform;
     transition-duration: 2s;
     user-select: none;
 }
