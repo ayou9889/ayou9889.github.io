@@ -1,42 +1,41 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 html,body{
     height: 100%;
-}
-div{
-    background-color: #3d55a2;
-    color:#3d55a2;
-    transition-property:color ;
-    transition-duration: 2s;
-    transition-delay: .5s;
-    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #3d55a2;
+    color:#3d55a2;
+}
+body>div{
     font-family: "Rancho", cursive;
     font-weight: 400;
     font-style: normal;
     font-size:clamp(16px,5vw,50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-body>div>h1{
-    position: relative;
-    padding-bottom: 16px;
+body>div>div{
+    transition-property: color transform;
+    transition-duration: 2s;
     user-select: none;
 }
-body>div>h1::before{
-    font-weight: normal;
-    text-shadow: none;
-    content:"Back-End Dev";
-    position: absolute;
-    font-size: 20px;
-    bottom: 0;
-    right: 0;
-    transition-property: color, transform;
-    transition-duration: 2s;
+body>div>div:nth-child(1){
+    text-shadow: 1px 1px black,-1px -1px black;
 }
-body>div>h1:hover::before{
-    transform: scaleX(-1);
+body>div>div:nth-child(2){
+    transition-duration: 1s;
+    align-self: flex-end;
+    font-size: clamp(16px,3vw,30px);
+}
+body>div>div:nth-child(1):hover+div{
     color:#000;
+    transform: scaleX(-1);
 }
