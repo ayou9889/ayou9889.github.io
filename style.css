@@ -31,6 +31,10 @@ body>div>div{
     user-select: none;
 }
 body>div>div:nth-child(1){
+    -webkit-text-shadow: 1px 1px black,-1px -1px black;
+    -moz-text-shadow: 1px 1px black,-1px -1px black;
+    -ms-text-shadow: 1px 1px black,-1px -1px black;
+    -o-text-shadow: 1px 1px black,-1px -1px black;
     text-shadow: 1px 1px black,-1px -1px black;
 }
 body>div>div:nth-child(2){
