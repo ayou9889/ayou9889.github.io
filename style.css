@@ -25,10 +25,10 @@ body>div{
 }
 body>div>div{
     transition-property: color, transform;
-    transition-duration: 2s;
     user-select: none;
 }
 body>div>div:nth-child(1){
+    transition-duration: 2s;
     text-shadow: 1px 1px black,-1px -1px black;
 }
 body>div>div:nth-child(2){
