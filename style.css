@@ -24,14 +24,15 @@ body>div{
     justify-content: center;
 }
 body>div>div{
-    transition-property: color, transform;
     user-select: none;
 }
 body>div>div:nth-child(1){
+    transition-property: color;
     transition-duration: 2s;
     text-shadow: 1px 1px black,-1px -1px black;
 }
 body>div>div:nth-child(2){
+    transition-property: color, transform;
     transition-duration: 1s;
     transition-delay: 1s;
     align-self: flex-end;
