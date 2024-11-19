@@ -42,3 +42,8 @@ body>div>div:nth-child(1):hover+div{
     color:#000;
     transform: scaleX(-1);
 }
+@media (max-width:480px) {
+    body div>div:first-of-type{
+        font-size: clamp(1.5rem,5vw,4rem);
+    }
+}
