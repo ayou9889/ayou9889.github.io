@@ -12,6 +12,8 @@ body{
     justify-content: center;
     background-color: #3d55a2;
     color:#3d55a2;
+    transition-property: opacity;
+    transition-duration: .125s;
 }
 body>div{
     font-family: "Rancho", cursive;
