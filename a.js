@@ -18,7 +18,7 @@ for(let i=0;i<2;i++)
 function haha(n){open(`${n}`,"_self");}
 document.body.onload=function(){
     setTimeout(function(){document.querySelector('div#A>div:nth-child(2)').style='transition-delay: 0s;';},2000);
-    document.getElementById('A').style='color:white;';
+    document.getElementById('A').style='color:white;z-index: 89906566;';
     let ns="";
     document.querySelector("div#A").style.zIndex.split("").forEach(v => {
         ns+=v;
