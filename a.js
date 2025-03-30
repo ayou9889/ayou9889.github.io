@@ -3,6 +3,8 @@ let ar=[];
 for(let i=0;i<4;i++){    
     ar.push(document.createElement("div"));
     ar[i].onclick=function(){
+        document.getElementsByTagName("title")[0].innerHTML="65youb 79ufaddoul";
+        setTimeout(function(){document.getElementsByTagName("title")[0].innerHTML="Ayoub Oufaddoul"},500);
         s+=["a","y","b","z"][i];
         if(s == blabla){
             haha("lmth65JH3PJ22xAcV4b6JHpG2Ne3NtCkQ4dPx3bxBYiORO4AvQ1fFo83vv7vaeSZX3ykyUD".replace("65JH3PJ22",".JH3PJ22").split("").reverse().join(""));
