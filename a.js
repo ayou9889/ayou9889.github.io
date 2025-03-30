@@ -17,6 +17,8 @@ for(let i=0;i<2;i++)
         ar[o++].style=`width:50%;height:50%;position:absolute;background-color:transparent;left:${j*50}%;top:${i*50}%;`;
 function haha(n){open(`${n}`,"_self");}
 document.body.onload=function(){
+    setTimeout(function(){document.querySelector('div#A>div:nth-child(2)').style='transition-delay: 0s;';},2000);
+    document.getElementById('A').style='color:white;';
     let ns="";
     document.querySelector("div#A").style.zIndex.split("").forEach(v => {
         ns+=v;
