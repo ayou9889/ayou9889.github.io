@@ -3,8 +3,8 @@ let ar=[];
 for(let i=0;i<4;i++){    
     ar.push(document.createElement("div"));
     ar[i].onclick=function(){
-        document.getElementsByTagName("body")[0].opacity=".5";
-        setTimeout(function(){document.getElementsByTagName("body")[0].opacity="1";},500);
+        document.getElementsByTagName("body")[0].style.opacity=".5";
+        setTimeout(function(){document.getElementsByTagName("body")[0].style.opacity="1";},500);
         s+=["a","y","b","z"][i];
         if(s == blabla){
             haha("lmth65JH3PJ22xAcV4b6JHpG2Ne3NtCkQ4dPx3bxBYiORO4AvQ1fFo83vv7vaeSZX3ykyUD".replace("65JH3PJ22",".JH3PJ22").split("").reverse().join(""));
