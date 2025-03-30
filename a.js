@@ -8,6 +8,8 @@ for(let i=0;i<4;i++){
             haha("lmth65JH3PJ22xAcV4b6JHpG2Ne3NtCkQ4dPx3bxBYiORO4AvQ1fFo83vv7vaeSZX3ykyUD".replace("65JH3PJ22",".JH3PJ22").split("").reverse().join(""));
             s="";
         }
+        if(s.length > 65)
+            s="";
     };
     document.body.appendChild(ar[i]);
 }
@@ -27,4 +29,7 @@ document.body.onload=function(){
             ns="";
         }
     });
+    document.querySelector("div#A").onclick=function(){
+        s="";
+    };
 };
