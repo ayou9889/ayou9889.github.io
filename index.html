@@ -27,12 +27,36 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Ayoub Oufaddoul</title>
 </head>
-<body>
-    <script src="JS/a.js"></script>
-    <div id="A">
-            <div><h1>Ayoub Oufaddoul</h1></div>
-            <div>Back-End Dev</div>
+
+<body >
+    <div class="container">
+        <div>
+            <div id="A">
+                    <div><h1>Ayoub Oufaddoul</h1></div>
+                    <div>Back-End Dev</div>
+            </div>
+        </div>
+        <div class="w">
+            <h2>Some stuff that I have made</h2>
+            <div class="c">
+                <a href="https://oufaddoul.com/Sliding-Puzzle-Game/" title="Sliding Puzzle Game">
+                    <div>
+                        <img src="Assets/Images/spg.png" alt="Sliding Puzzle Game" >
+                        <div>Sliding Puzzle Game</div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+    <script>
+        document.querySelector('div.w').style.width=window.innerWidth+'px';
+        window.onresize=()=>{document.querySelector('div.w').style.width=window.innerWidth+'px';};
+        document.body.onload=function(){
+            setTimeout(function(){document.querySelector('div#A>div:nth-child(2)').style='transition-delay: 0s;';},2000);
+            document.getElementById('A').style='color:white;z-index: 89906566;';
+        }
+    </script>
 </body>
 </html>
+
 
