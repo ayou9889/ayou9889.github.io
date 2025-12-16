@@ -77,10 +77,11 @@ div.w div.c{
 }
 div.w div.c>a{
     text-decoration: none;
+    width:calc(100% / 3);
 }
 div.w div.c>a>div{
     font-weight: 600;
-    width:calc(100% / 3);
+    width:100%;
     background-color: #171717;
     padding: 5px;
     border-radius: 5px;
@@ -91,7 +92,7 @@ div.w div.c>a>div>img{
     width:100%;
 }
 @media (max-width:768px) {
-    div.w div.c>a>div{
+    div.w div.c>a{
         width:calc(100% / 2);
     }
 }
@@ -99,7 +100,7 @@ div.w div.c>a>div>img{
     body div#A>div:first-of-type{
         font-size: clamp(1.5rem,5vw,4rem);
     }
-    div.w div.c>a>div{
+    div.w div.c>a{
         width:100%;
     }
 }
