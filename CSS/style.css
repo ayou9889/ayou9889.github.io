@@ -78,7 +78,7 @@ div.w div.c{
 }
 div.w div.c>a{
     text-decoration: none;
-    width:calc(100% / 2 - 20px);
+    width:calc(100% / 2 - 10px);
 }
 div.w div.c>a>div{
     font-weight: 600;
@@ -94,7 +94,7 @@ div.w div.c>a>div>img{
 }
 @media (max-width:768px) {
     div.w div.c>a{
-        width:calc(100% / 2 - 10px);
+        width:calc(100% / 2 - 5px);
     }
 }
 @media (max-width:480px) {
