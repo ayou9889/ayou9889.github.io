@@ -74,10 +74,11 @@ div.w div.c{
     display: flex;
     padding:10px;
     gap:10px;
+    flex-wrap: wrap;
 }
 div.w div.c>a{
     text-decoration: none;
-    width:calc(100% / 3);
+    width:calc(100% / 2 - 20px);
 }
 div.w div.c>a>div{
     font-weight: 600;
@@ -93,7 +94,7 @@ div.w div.c>a>div>img{
 }
 @media (max-width:768px) {
     div.w div.c>a{
-        width:calc(100% / 2);
+        width:calc(100% / 2 - 10px);
     }
 }
 @media (max-width:480px) {
