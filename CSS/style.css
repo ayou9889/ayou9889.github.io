@@ -73,7 +73,7 @@ div.w div.c{
     background-color: hsla(225, 30%, 26%, 0.514);
     display: flex;
     padding:10px;
-
+    gap:10px;
 }
 div.w div.c>a{
     text-decoration: none;
