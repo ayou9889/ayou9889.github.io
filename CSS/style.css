@@ -78,7 +78,7 @@ div.w div.c{
 }
 div.w div.c>a{
     text-decoration: none;
-    width:calc(100%/3 - 10px);
+    width:calc(100%/3 - 7px);
 }
 div.w div.c>a>div{
     font-weight: 600;
