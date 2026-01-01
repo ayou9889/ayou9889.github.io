@@ -66,6 +66,7 @@ body div.container>div.w{
 div.w h2{
     margin-bottom: 20px;
     color:#3e4c75;
+    text-shadow: -2px 2px #171717;
 }
 div.w div.c{
     border-radius: 5px;
