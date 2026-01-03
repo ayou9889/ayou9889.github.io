@@ -128,7 +128,7 @@ footer a{
         width:100%;
     }
     body div.container>div.w{
-        height: fit-content;
+        height:120%;
     }
 }
 @media (min-width:900px){
