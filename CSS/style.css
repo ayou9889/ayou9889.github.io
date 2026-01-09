@@ -108,6 +108,9 @@ footer a{
     font-weight: 600;
     text-decoration: none;
 }
+div.w div.c{
+        margin-bottom:87px;
+}
 @media (max-width:768px) {
     div.w div.c>a{
         width:calc(100% / 2 - 5px);
@@ -129,9 +132,6 @@ footer a{
     }
     body div.container>div.w{
        height: fit-content;
-    }
-    div.w div.c{
-        margin-bottom:87px;
     }
 }
 @media (min-width:900px){
