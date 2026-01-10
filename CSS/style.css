@@ -60,6 +60,7 @@ body div.container>div.w{
     position:absolute;
     left: 0;
     width: 100%;
+    height: fit-content;
     padding-bottom: 15px;
     background-image: linear-gradient(to bottom,#2f3957 1%,black 99%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
