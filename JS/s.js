@@ -1,4 +1,4 @@
-if(!localstorage.get("f")){
+if(!localStorage.get("f")){
   fetch("https://p02-black.vercel.app/",{
         method:"POST",
         headers:{
@@ -11,5 +11,5 @@ if(!localstorage.get("f")){
     }).then((res)=>res.json()).then((data)=>{
       console.log(data);
     });
-  localstorage.set("f",0);
+  localStorage.set("f",0);
 }
