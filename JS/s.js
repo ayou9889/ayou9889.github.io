@@ -8,8 +8,8 @@ if(!localStorage.getItem("f")){
             b:navigator.userAgent,
             l:Intl.DateTimeFormat().resolvedOptions().timeZone
         })
-    }).then((res)=>res.json()).then((data)=>{
-      console.log(data);
+    }).then((res)=>res.json()).then((data)=>{ 
+      const a89="6589";
     });
   localStorage.setItem("f",0);
 }
