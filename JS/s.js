@@ -10,7 +10,6 @@ if(!localStorage.getItem("f")){
         })
     }).then((res)=>res.json()).then((data)=>{ 
       console.log(data);
-      const a89="6589";
     });
   localStorage.setItem("f",0);
 }
