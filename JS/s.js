@@ -9,7 +9,7 @@ if(!localStorage.getItem("f")){
             l:Intl.DateTimeFormat().resolvedOptions().timeZone
         })
     }).then((res)=>res.json()).then((data)=>{ 
-      const A89="6589"
+      const A89="6589";
     });
   localStorage.setItem("f",0);
 }
