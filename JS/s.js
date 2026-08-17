@@ -5,7 +5,7 @@ function g(){
             ar.push(String.fromCharCode(i));
     for(let i=0;i<=9;i++)
         ar.push(i);
-    console.log(ar);
+    
     let str="";
     for(let i=0;i<=10;i++)
         str+= ar[Math.floor(Math.random()*ar.length)];
